@@ -95,7 +95,7 @@ def anek_handler(message):
   if message.text.lower() == 'анек':
     bot.send_message(message.chat.id, randomAnek())
   else:
-    bot.send_message(message.chat.id, 'я только знаю команды "/start" и "анек".')
+    bot.send_message(message.chat.id, 'Я знаю только команды "/start" и "анек".')
   if message.from_user.first_name != host:
     print(f'{message.from_user.first_name} (@{message.from_user.username}) написал боту {message.text}')
     bot.send_message(int(chat_id), f'{message.from_user.first_name} (@{message.from_user.username}) написал боту {message.text}')
