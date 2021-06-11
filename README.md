@@ -1,0 +1,2 @@
+# AnekBot
+Anekdote telegram bot.
